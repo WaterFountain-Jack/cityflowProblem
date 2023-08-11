@@ -27,7 +27,7 @@ eng = cityflow.Engine(config_path, thread_num=1)
 
 file = os.path.join(config["dir"], config["roadnetFile"])
 for i in range(10000000):
-
+    print(i)
     with open('{0}'.format(file)) as json_data:
 
         net = json.load(json_data)
