@@ -1,1 +1,2 @@
 # cityflowProblem
+While testing the Manhattan dataset (from mplight), I found that when I turned on the laneChange function, there was a probability that the program would encounter a segment error and stop running automatically, where the likelihood of this occurring when the setup signals were more frequent was higher. But turning it off solves the problem. The specific code can be referred to as follows: https://github.com/WaterFountain-Jack/cityflowProblem
